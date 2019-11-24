@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Forms </title>
+</head>
+<body>
+
+    <h1>forms</h1>
+
+
+
+    <form action="" >
+  
+        <label for="datalist"> browsers</label> <br><br>
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+
+
+        <label for=""> hidden input  </label> <br>
+        <input type="hidden" name="_token"><br>
+
+  
+        <label for="num">num</label>
+        <input type="number" name="num" min="0" max="10" id="" value="3" step="3"> <br><br>
+        <label for="rate"> Rate </label> <br>
+        <input type="range" name="rate" id=""> <br><br>
+
+        <label for="">  Country </label> <br>
+        <select name="country" id="" multiple >
+            <option value="Egypty">Egypt</option>
+            <option value="Chad">Chad</option>
+            <option value="sudan">sudan</option>
+            <option value="UAE">UAE</option>
+        </select> 
+        <br> <br>
+
+        <label for=""> Favourite food </label><br>
+        <input type="checkbox" name="favfood"  value="meat" id=""> meat <br>
+        <input type="checkbox" name="favfood"  value="checken" id=""> checken <br>
+        <input type="checkbox" name="favfood"  value="orange" id=""> orange <br>
+        <input type="checkbox" name="favfood"  value="fish" id=""> fish <br>
+
+        <br><br>
+
+        <label for=""> Gender </label> <br>
+         <input type="radio" name="gender" value="male" id="">  male   
+         <input type="radio" name="gender" value="female" id="">  female
+
+         <br><br>
+
+
+
+
+
+        <label for="username"> username </label> <br>
+        <input type="text"   name="username"  id="username"  class="Uname" placeholder="username" ><br><br>
+
+        <label for="password" > Password </label> <br>
+        <input type="password"   name="password"  id="password"  class="password" placeholder="Enter Password" ><br><br>
+<!-- 
+        <input type="submit" value="Send"> -->
+        <label for="">ARTICLE</label> <br>
+        <textarea name="article" id="articel" cols="30" rows="4"></textarea><br><br>
+
+        <label for="username"> website url </label> <br>
+        <input type="url"   name="website"  id="website"  class="Uname" placeholder="username" ><br><br>
+
+        <label for="email"> Email  </label> <br>
+        <input type="email"   name="email"  id="website"  class="Uname" placeholder="username" ><br><br>
+
+
+        <label for="favcolor"> favcolor </label><br>
+        <input type="color" name="" id=""><br><br>
+
+        <label for="File"> image </label><br>
+        <input type="file" name="" id="" multiple ><br><br>
+
+        <label for="File"> date of birth </label><br>
+        <input type="week" name="" id="" multiple ><br><br>
+
+
+        <button type="submit"> submit </button>
+        <input type="reset" value="reboot">
+
+    </form>
+
+    
+</body>
+</html>
