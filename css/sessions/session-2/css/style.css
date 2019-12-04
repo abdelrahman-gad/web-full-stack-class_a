@@ -1,0 +1,37 @@
+ 
+        body{
+            height:1000px;
+        }
+
+        .el{
+            
+            background:url('../images/big.jpg') no-repeat center scroll ;
+            color: dodgerblue;
+            background-color: teal;
+            /* opacity:0.2; */
+            background-size: cover;
+            height: 400px;
+            width: 500px;
+            border: 2px solid #333;
+            float: left;
+            display: block;
+        }
+
+        .first{
+        padding-top: 120px;
+        padding-left: 100px;
+        margin-bottom: 40px;
+        outline: 3px solid #999;
+        outline-offset: 20px;
+
+        }
+
+        .parent{
+            background-color: skyblue;
+        }
+        .seconed{
+            margin-top: 20px;
+            margin-bottom: 50px;
+            /* margin-left: 100px; */
+            margin-right: 3000px;
+        }
