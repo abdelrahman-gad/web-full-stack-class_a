@@ -1,0 +1,25 @@
+.b{
+    color: White;
+    padding: 12px 16px;
+    border: 1px solid #333;
+}
+.send{
+    background: dodgerblue;
+}
+#pow{
+    background: forestgreen;
+}
+
+.cancel{
+    background-color: firebrick;
+}
+
+section > p{
+   
+    color:  lightsalmon;
+}
+
+section h1 {
+    color: lightcoral;
+}
+
