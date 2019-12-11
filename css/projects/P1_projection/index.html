@@ -6,50 +6,63 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Projection</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-    <link rel="stylesheet"  type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet"  type="text/css" href="assets/css/style.css">
 </head>
 <body>
     
+    <!-- start header -->
      <header>
-        <nav>
-            <div class="logo">
-                <a href="">Projction </a>
-            </div>
+         <div class="overlay"></div>
+         <!-- start nav -->
+        <nav>           
+            <a class="logo" href="">
+                <strong>Projction</strong>    
+            </a>
+          
              <ul>
                  <li><a href="#">Home</a></li>
                  <li><a href="#services">Services</a></li>
                  <li><a href="#contact">Contact Us</a></li>
              </ul>
-             <div class="h_separator"></div>
+            
         </nav>
-        <section class="banner">
+        <!-- end nav -->
+        <div class="h_separator"></div>
+        <!-- start banner -->
+        <section id="banner" class="banner text-center">
+          <div class="container">
             <h1 class="hero">
-             Welcome To Projection
-            </h1>
-            <div class="offers">
-                <div class="offer">
-                    <i class="fas fa-car"></i>
-                    <h3>Aliquam</h3>
-                    <p>Suspendisse amet ullamco</p>
-                </div>
-                <div class="offer">
-                    <i class="fas fa-camera"></i>
-                    <h3>Aliquam</h3>
-                    <p>Suspendisse amet ullamco</p>
-                </div>
-                <div class="offer">
-                    <i class="fas fa-bug"></i>
-                    <h3>Aliquam</h3>
-                    <p>Suspendisse amet ullamco</p>
-                </div>                   
-            </div>
-            <button>Get Start</button>
+                Welcome To Projection
+             </h1>
+               <div class="offers">
+                   <div class="offer">
+                       <i class="fas fa-car"></i>
+                       <h3>Aliquam</h3>
+                       <p>Suspendisse amet ullamco</p>
+                   </div>
+                   <div class="offer">
+                       <i class="fas fa-camera"></i>
+                       <h3>Aliquam</h3>
+                       <p>Suspendisse amet ullamco</p>
+                   </div>
+                   <div class="offer">
+                       <i class="fas fa-bug"></i>
+                       <h3>Aliquam</h3>
+                       <p>Suspendisse amet ullamco</p>
+                   </div>  
+                   <div class="clear-fix"></div>  
+               </div>
+              <button class="btn">Get Start </button>
+             
+          </div>
         </section>
+        <!-- end banner -->
     </header>
+    <!-- end  header -->
 
     <main>
         <section  id="services" class="services">
-            <article>
+            <article class="service">
                 <img src="assets/imgs/pic01.jpg" alt="">
                 <h3>Lorem ipsum dolor amet nullam</h3>
                 <p>Morbi in sem quis dui placerat ornare.
@@ -59,7 +72,7 @@
                 </p>
                 <button>Learn More</button>
             </article>
-            <article>
+            <article class="service">
                     <img src="assets/imgs/pic02.jpg" alt="">
                     <h3>Sed feugiat tempus adipicsing</h3>
                     <p>Morbi in sem quis dui placerat ornare.
@@ -72,7 +85,7 @@
         </section>       
     </main>
     <footer>
-        <section class="contact">
+        <section id="contact" class="contact">
               <h3> Get In Touch</h3>
               <form action="">
                 <div class="field half first">
