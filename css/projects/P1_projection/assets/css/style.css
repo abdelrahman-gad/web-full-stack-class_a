@@ -21,8 +21,6 @@
     left: 0;
 }
 
-
-
 .btn{
   padding: 12px 40px;
   background-color: transparent;
@@ -36,14 +34,18 @@
     background-color:rgba(108, 192, 145, 0.2);
      cursor: pointer;
 }
+.rounded-circle{
+    border-radius:50%;
+}
+
 
 
 /* boot */
 *{
-box-sizing: border-box;
-padding: 0;
-margin: 0;
-overflow-x: hidden;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 
@@ -127,18 +129,43 @@ h1.hero{
     margin-bottom: 16px;
     font-size: 18px;
 }
+/* end banner */
 /* adding vertical lines */
 .offers .offer:nth-child(2){
     border-right: 1px solid var(--lightBlack);
     border-left: 1px solid var(--lightBlack);
-
 }
-
-
-
-
-
-
 /* end header */
+.services .service{
+  width: 50%;
+  float: left;
+  padding: 40px;
+}
+.services .service img{
+    margin-bottom: 15px;
+}
+.services .service h3{
+    color: #444;
+    margin-bottom: 16px;
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.services .service p{
+    color:#999;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    padding: 0 16px;
+    
+}
+/* end services */
+
+/* start contact */ 
+ 
+/* end contact  */
+
+
+
 
 
