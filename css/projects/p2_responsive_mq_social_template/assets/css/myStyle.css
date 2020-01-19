@@ -1,0 +1,163 @@
+:root{
+    --grey:#becbd5;
+    --lightGrey:#ddd;
+    --teal:#4A8BAC;
+    --darkTeal:#3a4b53;
+    --lightRed:#f44336;
+    --green:#4caf50;
+    --black:#000;
+    --lightBlack:#777;
+    --white:#fff;
+}
+/* reset */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.nav-links{
+    list-style-type: none;
+    background-color: var(--teal);
+}
+.nav-links li{
+    float: left;
+}
+.nav-links li:last-of-type{
+    float: right;
+}
+.nav-links li a{
+    display: block;
+    text-align: center;
+    padding: 22px 18px;
+    color: var(--white);
+    font-size: 24px;
+    height: 100px;
+    text-decoration: none;
+
+}
+.nav-links li a:hover{
+    background-color: var(--white);
+    color: var(--teal);
+}
+nav .nav-links a i{
+    margin-top: 16px;
+}
+
+
+
+.nav-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.test{
+    background-color: aqua;
+}
+
+/* utilities */
+
+.container{
+    background-color: var(--lightGrey);
+}
+
+.col{
+    float: left;
+    overflow: hidden;
+    margin-right: 20px;
+    
+}
+.col-3{
+    width:28%;
+}
+.col-5{
+width: 47%;
+}
+.col-2{
+ width: 18%;
+}
+.m-10{
+    margin: 10px;
+}
+.m-15{
+ margin: 15px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+.p-10{
+    padding: 10px;
+}
+.p-15{
+    padding: 15px;
+}
+.p-20{
+    padding: 20px;
+}
+.p-30{
+    padding: 30px;
+}
+
+
+.box{
+    border: 1px solid var(--lightBlack);
+    overflow: hidden;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.box-img{
+    width: 40%;
+    margin: auto;
+    height: 100px;
+}
+.rounded-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.box-list{
+    list-style-type: none
+}
+.box-list-item{
+    padding: 10px;
+    font-size: 20px;
+    font-weight:normal;
+}
+.box-list-item i{
+    margin-right: 10px;
+}
+
+
+
+
+
+.text-center{
+    text-align: center;
+}
+
+.muted{
+    color: var(--lightBlack);
+}
+
+
+.clear-fix{
+    clear: both;
+}
+
+
+
+@media screen and (max-width:900px){
+  .nav-links li  {
+      float: none;
+      width: 100%;
+  }
+ 
+
+}
+
