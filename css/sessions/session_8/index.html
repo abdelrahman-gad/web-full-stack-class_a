@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex box</title>
+    <style>
+          .flex-container{
+              display: flex;
+              color: #fff;
+              border: 4px solid #f0f;
+              flex-direction: row;
+              font-size: 30px;
+             
+              flex-wrap: nowrap;
+              justify-content:flex-start;
+              height: 500px;
+          }
+           
+          .item{
+              border: 1px solid #333;
+              padding: 30px;
+          }
+
+         .one{
+             margin-top: 30px;
+             background-color: red;
+             /* flex-shrink: 1; */
+             /* height: 150px; */
+             align-self: flex-start;
+
+         }
+         .two{
+             background-color: blue;
+             /* flex-shrink: 3; */
+             margin-top: 60px !important;
+                align-self: center;
+         }
+         .three{
+             background-color: green;
+             /* flex-shrink: 2; */
+align-self: flex-end;
+         }
+         .four{
+             background-color: orange;
+             /* flex-shrink: 2; */
+align-self: stretch;
+         }
+
+    </style>
+</head>
+<body>
+
+ <div class="flex-container">
+   <div class="item one">
+       one
+   </div>
+   <div class="item two">
+        two
+    </div>
+
+    <div class="item three">
+         three
+    </div>
+
+   
+    <div class="item four">
+        four
+   </div>
+ </div>
+
+
+    
+</body>
+</html>
