@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+     .container{
+         display: grid;
+         grid-template-columns: repeat(3,1fr);
+         grid-template-rows: 200px;
+         padding: 12px;
+         background-color: floralwhite;
+         justify-items: center;
+         /* align-items: center; */
+         grid-gap: 12px;
+     }
+     div{
+         background-color: crimson;
+         border: 1px solid #777;
+         color: white;
+         padding: 30px;
+     }
+     div:nth-of-type(even){
+         background-color: dodgerblue;
+     }
+      div.one{
+          align-self: start;
+      }
+      div.two{
+          align-self: center;
+      }
+      div.three{
+          align-self: end;
+      }
+
+    </style>
+</head>
+<body>
+    
+   <div class="container">
+       <div class="one">one</div>
+       <div class="two">two</div>
+       <div class="three">three</div>
+       <div class="four">four</div>
+       <div class="five">five</div>
+       <div class="six">six</div>
+
+   </div>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    
+    .container{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(3,minmax(100px,200px));
+
+    }
+
+    .container div{
+      border: 1px solid #333;
+      background-color: dodgerblue;
+      color: white;
+      padding: 12px;
+    }
+    div.one{
+        background-color: firebrick;
+        /* grid-column-start: 1;
+        grid-column-end: 5; */
+        grid-column: 5/7;
+        /* grid-row-start: 1;
+        grid-row-end: 3; */
+        grid-row: 3/5;
+    }
+        </style>
+</head>
+<body>
+    
+<div class="container">
+    <div class="one">col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam pariatur, nam rerum distinctio tempore facere, impedit explicabo, ab delectus dolorem deleniti. Doloribus, error debitis ipsa commodi beatae illo fugiat sequi?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam pariatur, nam rerum distinctio tempore facere, impedit explicabo, ab delectus dolorem deleniti. Doloribus, error debitis ipsa commodi beatae illo fugiat sequi?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam pariatur, nam rerum distinctio tempore facere, impedit explicabo, ab delectus dolorem deleniti. Doloribus, error debitis ipsa commodi beatae illo fugiat sequi?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam pariatur, nam rerum distinctio tempore facere, impedit explicabo, ab delectus dolorem deleniti. Doloribus, error debitis ipsa commodi beatae illo fugiat sequi?
+
+    </div>
+  
+    <div>col</div>
+    <div>col</div>
+</div>
+
+</body>
+</html>
