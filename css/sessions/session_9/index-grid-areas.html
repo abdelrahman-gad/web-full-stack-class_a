@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+      .container{
+          display: grid;
+          padding: 1rem;
+          grid-gap: 10px;
+          grid-template-columns:repeat(4,1fr);
+          grid-template-rows: repeat(4,100px);
+          background-color: darkcyan;
+          color: #fff;
+          grid-template-areas: 
+          "header header header header"
+          "nav  main main main"
+          "aside main main main"
+          ". footer footer ." ;
+      }
+
+      .container div{
+          background-color: crimson;
+          border: 1px solid #333;
+      }
+      .header{
+          grid-area: header;
+      }
+       .nav{
+           grid-area: nav;
+       }
+        .aside{
+            grid-area: aside;
+        }
+        .main{
+            grid-area: main;
+        }
+        .footer{
+            grid-area: footer;
+        }
+
+
+        @media screen  and (max-width: 700px) {
+            .container{
+                grid-template-rows: repeat(5,100px);
+                grid-template-areas: 
+                "header header header header"
+                "nav nav nav nav"
+                "aside aside aside aside"
+                "main main main main"
+                "footer footer footer footer" ;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="nav">nav </div>
+        <div class="aside"> aside </div>
+        <div class="main">main</div>
+        <div class="footer">footer</div>
+     </div>
+
+</body>
+</html>
